@@ -1,4 +1,4 @@
-# igr204-baby-names
+# IGR204-baby-names
 GROUP N
 
 ## Visualization 1 (Altair)
