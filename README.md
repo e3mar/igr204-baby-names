@@ -14,8 +14,8 @@ We can also see that some first names have known a great popularity in a brief w
 ## Visualization 2 (Altair)
 
 ### Sketches
-![](vis1_sketch_2.jpg)
 ![](vis2_sketch_1.jpg)
+![](vis1_sketch_2.jpg)
 
 ### Conclusion
 This visualization gives a fair insight into which names are the most popular in the country thanks to the geo option of Altair. 
