@@ -5,6 +5,10 @@ GROUP N
 
 ### Sketches
 ![](img_1_viz_1.jpeg)
+![](img_2_viz_1.jpeg)
+![](img_3_viz_1.jpeg)
+
+
 
 ### Conclusion
 We notice that the first names tend to evolve in a bell shape. They gradually increase until they reach a maximum value before gradually decreasing in the same way. Most of the names do not have a constant popularity. Some first names also never had success like Léno or Médea (graph 3 in notebook). 
