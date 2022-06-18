@@ -4,9 +4,9 @@ GROUP N
 ## Visualization 1 (Altair)
 
 ### Sketches
-![](img_1_viz_1.jpeg)
-![](img_2_viz_1.jpeg)
-![](img_3_viz_1.jpeg)
+![](Visualization_1/img_1_viz_1.jpeg)
+![](Visualization_1/img_2_viz_1.jpeg)
+![](Visualization_1/img_3_viz_1.jpeg)
 
 
 
@@ -18,8 +18,8 @@ We can also see that some first names have known a great popularity in a brief w
 ## Visualization 2 (Altair)
 
 ### Sketches
-![](vis2_sketch_1.jpg)
-![](vis1_sketch_2.jpg)
+![](Visualization_2/vis2_sketch_1.jpg)
+![](Visualization_2/vis1_sketch_2.jpg)
 
 ### Conclusion
 This visualization gives a fair insight into which names are the most popular in the country thanks to the geo option of Altair. 
@@ -28,9 +28,9 @@ The user can click on a region and filter the names, it displays a bart chart wi
 ## Visualization 3 (Altair)
 
 ### Sketches
-![](img_1.jpeg)
-![](img_2.jpeg)
-![](img_3.jpeg)
+![](Visualization_3/img_1.jpeg)
+![](Visualization_3/img_2.jpeg)
+![](Visualization_3/img_3.jpeg)
 
 ### Conclusion
 Popularity of baby names used for both genders rised around the 50's then suffered a little drop 20 years after. For brief periods we notice short trends like Nathalie's name that quickly vanishes, it is not popular amongst male anymore. Names like Dominique and Claude who are commonly used for both women and men have evolved consistently and are still trendy nowadays. 
