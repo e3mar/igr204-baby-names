@@ -31,8 +31,9 @@ GROUP N
 ### Chart (interactive)
 ![](Visualization_2/chart_2.png)
 
-## Comments
-### Discussing choice of visualization and figures
+### Comments
+
+#### Discussing choice of visualization and figures
 The purpose of visualization 2 is to highlight the regional effects across the dataset.
 Using a map with the regions of France as a layout offers in our opinion a good balance between the granularity and readability of the data we intend to display.
 We chose standard histograms to encode the regional count of given names, we have discarded other ideas for scalable data point size inside each region for a given name (as a text label or a bubble), as those were in our opinion hard to position correctly within the region map polygons with little to no overlapping and with enough data points to make a compelling visualization.
@@ -44,7 +45,7 @@ Although this candidate would highlight regional effects in the data, the popula
 
 The second sketch is an attempt to overcome the limitations of the previously designed sketch by adding a selection based stacked bar chart, enabling comparison of given name popularity between regions. We would add that the downside to this sketch is that an important amount of data is now encoded in the bar chart, leaving the map with fewer information encoded. We then chose to reduce the size of the map relative to the bar chart while still leaving it at the top, as the selections on the map enable the display in the bar chart.
 
-### Implementation details
+#### Implementation details
 On the implementation end, the map layout required France region polygons to draw the map, geopandas was used to load the geoshape file and compute region polygon centroids for region name text labels. Insee dataset were use to build mappings between regions and departments (the dataset has only the department feature) as the visualization requires region level aggregated data.
 The dataset was filtered on a specific year (the choice of year was arbitrary) only for on technical reason: notebook size seemed to increase with input dataset size, after some research it appeared that vega compiled visualization holds the dataset serialized as json. There are better dataset reduction solutions that come to mind but given the fact the time was not relevant dimension in the visualization, we simply filtered on the specific year.
 The visualization was designed using Altair, linked and stacked horizontally:
