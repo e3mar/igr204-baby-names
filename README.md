@@ -8,6 +8,9 @@ GROUP N
 ![](Visualization_1/img_2_viz_1.jpeg)
 ![](Visualization_1/img_3_viz_1.jpeg)
 
+### Chart 1 (interactive)
+![](Visualization_1/LineChart_DataVis_1.png)
+
 
 
 ### Conclusion
