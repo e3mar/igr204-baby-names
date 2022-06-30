@@ -8,7 +8,7 @@ GROUP N
 ![](Visualization_1/img_2_viz_1.jpeg)
 ![](Visualization_1/img_3_viz_1.jpeg)
 
-### Chart 1 (interactive)
+### Chart (interactive)
 ![](Visualization_1/LineChart_DataVis_1.png)
 
 ### About the Chart 1
@@ -28,12 +28,15 @@ GROUP N
 ![](Visualization_2/vis2_sketch_1.jpg)
 ![](Visualization_2/vis1_sketch_2.jpg)
 
+### Chart (interactive)
+![](Visualization_2/chart_2.png)
+
 ## Comments
 ### Discussing choice of visualization and figures
 The purpose of visualization 2 is to highlight the regional effects across the dataset.
 Using a map with the regions of France as a layout offers in our opinion a good balance between the granularity and readability of the data we intend to display.
 We chose standard histograms to encode the regional count of given names, we have discarded other ideas for scalable data point size inside each region for a given name (as a text label or a bubble), as those were in our opinion hard to position correctly within the region map polygons with little to no overlapping and with enough data points to make a compelling visualization.
-We felt the answering the question in terms of given name diversity was a way to demonstrate the regional effect of the data, we chose to apply color gradients on the map to encode this information.
+We felt the answer to the question in terms of given name diversity was a way to demonstrate the regional effect of the data, we chose to apply color gradients on the map to encode this information.
 
 From there on we had to answer another question: Can the questions be answered with ease and accuracy with a single visualization?
 The first sketch was an attempt to answer all the questions with a single visualization, with given name, count histograms located at the centroid of region polygons, and color gradient by given name diversity over a region.
