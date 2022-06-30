@@ -11,12 +11,16 @@ GROUP N
 ### Chart 1 (interactive)
 ![](Visualization_1/LineChart_DataVis_1.png)
 
+### About the Chart 1
 
 
-### Conclusion
-We notice that the first names tend to evolve in a bell shape. They gradually increase until they reach a maximum value before gradually decreasing in the same way. Most of the names do not have a constant popularity. Some first names also never had success like Léno or Médea (graph 3 in notebook). 
+**NB**: The visualization is interactive, so it is necessary to download the notebook and run the cells
 
-We can also see that some first names have known a great popularity in a brief way as Philippe between 1955 and 1970. We can also notice that this same first name is absolutely not more popular since about twenty years. Finally, we can observe a trend in the time which seems to be polynomial and approximately of degree 2 for all the first names.
+- Precisions about the choice of this Visualization : I chose to use a line chart because it is quite relevant in the context of time series. To avoid the spaghetti effect and to be able to clearly observe the evolution of the popularity of each name, I chose to make the visualization interactive. Finally, the choice of Altair seemed natural to me because it is easy to handle and integrates perfectly in jupyter notebooks.
+
+- Answers to questions about Visualization 1 : We notice that some names in the top 10 seem to evolve in a bell shape (ex : Alain, Philippe, Jean). They gradually increase until they reach a maximum value before gradually decreasing in the same way. Most of the names do not have a constant popularity as explained before. Some first names also never had success as we can see for Rohit or Carmelia.
+
+    We can also see that some first names have known a great popularity in a brief way as Philippe between 1955 and 1970. We can also notice that this same first name is absolutely not more popular since about twenty years. Finally, we can observe a trend in the time which seems to be linear and sometimes polynomial (deg 2) for Alain and Philippe for instance.
 
 ## Visualization 2 (Altair)
 
