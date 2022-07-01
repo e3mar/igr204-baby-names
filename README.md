@@ -67,7 +67,7 @@ The choice of Altair as a visualization framework was mainly a personnal prefere
 
 ### Comments
 
-### Discussing choice of visualization and figures
+#### Discussing choice of visualization and figures
 
 The aim of this visualization is to highlight the effect of genders on names and if any trend would be noticeable throughout the years. A chart with an appropriate data processing is the key to answering.
 
