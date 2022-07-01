@@ -11,7 +11,7 @@ GROUP N
 ### Chart (interactive)
 ![](Visualization_1/LineChart_DataVis_1.png)
 
-### About the Chart 1
+### Comments
 
 
 **NB**: The visualization is interactive, so it is necessary to download the notebook and run the cells
@@ -53,7 +53,7 @@ The visualization was designed using Altair, linked and stacked horizontally:
 * The stacked bar chart, filtered on the map selected regions
 Enabling easy comparison across 2 up to all region in France.
 
-The choice of Altair as a visualization framework was mainly a personnal preference for its API (over D3), and expressiveness (over Tableau) I fint code to be more expressive than equivalent drag and drop visual tools.
+The choice of Altair as a visualization framework was mainly a personnal preference for its API (over D3), and expressiveness (over Tableau) I find code to be more expressive than equivalent drag and drop visual tools.
 
 ## Visualization 3 (Altair)
 
@@ -62,8 +62,32 @@ The choice of Altair as a visualization framework was mainly a personnal prefere
 ![](Visualization_3/img_2.jpeg)
 ![](Visualization_3/img_3.jpeg)
 
-### Conclusion
-Popularity of baby names used for both genders rised around the 50's then suffered a little drop 20 years after. For brief periods we notice short trends like Nathalie's name that quickly vanishes, it is not popular amongst male anymore. Names like Dominique and Claude who are commonly used for both women and men have evolved consistently and are still trendy nowadays. 
+### Chart (interactive)
+![](Visualization_3/visualization.png)
+
+### Comments
+
+### Discussing choice of visualization and figures
+
+The aim of this visualization is to highlight the effect of genders on names and if any trend would be noticeable throughout the years. A chart with an appropriate data processing is the key to answering.
+
+In the first place we made different sketches to implement the best visualization. The first one is a line chart with a display of unisex names for the whole period. This chart shows which names are more popular among males and females and its evolution, but it does not expose the gender effects on names and would make the visualization biased.
+
+The second sketch is an attempt to scheme most popular names by using a bubble chart. Each bubble shows a name and the color encoding the percentage of usage amongst males and females. The bubble size reflects the popularity. Again, this chart doesn’t consider the evolution during the years.
+
+For the last sketch we searched through the courses and found the log ratio used in a similar case. We made a line chart and applied a log ratio to remove any bias. The idea is to take the top names and display it on the chart, the names close to the baseline are amongst the most popular for both genders. We chose this sketch because it answers both questions.
+
+#### Implementation details
+
+Altair is an easy way to display and manipulate data and in our case, we have to apply a specific formula.
+
+We chose a line chart because it’s a simple way to show an evolution of data over a period. We selected the top 40 names of the dataset and applied a log ratio on each in order to reveal the gender effect. The top side of the chart matches female names and the bottom male names.
+
+Each name is encoded by a color for differentiation purpose and is highlighted when clicked upon. It allows the user to know which name is associated to a line.
+
+By analyzing the chart, popularity of baby names used for both genders rose around the 50's then suffered a little drop 20 years after. For brief periods we notice short trends like Nathalie's name that quickly vanishes, it is not popular amongst male anymore. Names like Dominique and Claude who are commonly used for both women and men have evolved consistently and are still trendy nowadays.
+
+
 
 
 
